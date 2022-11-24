@@ -1,0 +1,28 @@
+div#nav {
+    background-color: #023059;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 0%;
+    float: right;
+
+}
+
+div#nav a {
+    color: #91BBF2;
+    margin: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div#titulo {
+    float: left;
+    background-color: #023059;
+    color: #91BBF2;
+    font-family: "Arial black";
+}
+
+body#background {
+    background-color: #011526;
+}
