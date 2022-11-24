@@ -3,7 +3,8 @@ div#nav {
     text-align: center;
     height: 40px;
     padding-top: 20px;
-    margin-top: 0%;
+    margin-top: 40px;
+    margin-right: 10px;
     float: right;
 
 }
@@ -15,14 +16,48 @@ div#nav a {
     font-size: 18px;
     text-decoration: none;
 }
+div#nav a:hover{
+    background: #035AA6;
+    padding-block: 10px;
+}
 
 div#titulo {
     float: left;
     background-color: #023059;
     color: #91BBF2;
     font-family: "Arial black";
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div#img_titulo {
+    float: left;
 }
 
 body#background {
     background-color: #011526;
+    
+}
+.foto_titulo{
+    width: 150px;
+    height: 200px;
+}
+.slider{
+    width: 98.5%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+div#columnas{
+    background-color: #023059;
+    color: #91BBF2;
+}
+div#columnas a{
+    color: #91BBF2;
+    margin: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
 }
