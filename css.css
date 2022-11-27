@@ -156,5 +156,44 @@ html {
     display: block;
 }
 .footer{
+    margin-top: 20px;
+    height: 50px;
     text-align: center;
+    background-color: #5f2498;
+    text-decoration: none;
+}
+.footer_nombres{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    color: #ffbc50;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer_proteccion{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    color: #ffbc50;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+}
+a.footer_proteccion {
+    text-decoration: none;
+}
+.nf .nerd-font, .nerd-fonts{
+    font-family: 'NerdFontsSymbols Nerd Font';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 }
