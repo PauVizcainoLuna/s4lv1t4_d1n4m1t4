@@ -16,7 +16,7 @@ div#nav a {
     padding: 10px;
 }
 
-div#cabezada{
+div#cabezada {
     background-color: black;
     height: 200px;
     width: auto;
@@ -111,23 +111,23 @@ html {
 
 
 .img2 {
-    background-image: url("/fotos/img1.jpg");
+    background-image: url("fotos/img1.jpg");
 }
 
 .img3 {
-    background-image: url("/fotos/IMG2.jpg");
+    background-image: url("fotos/IMG2.jpg");
 }
 
 .img4 {
-    background-image: url("/fotos/img3.jpg");
+    background-image: url("fotos/img3.jpg");
 }
 
 .img5 {
-    background-image: url("/fotos/img4.jpg");
+    background-image: url("fotos/img4.jpg");
 }
 
 .img6 {
-    background-image: url("/fotos/img5.jpg");
+    background-image: url("fotos/img5.jpg");
 }
 
 /* Position text in the middle of the page/image */
@@ -150,19 +150,22 @@ html {
     padding: 20px;
     text-align: center;
 }
-.bg_columnas{
+
+.bg_columnas {
     margin-top: 10px;
     text-align: center;
     display: block;
 }
-.footer{
+
+.footer {
     margin-top: 20px;
     height: 50px;
     text-align: center;
     background-color: #5f2498;
     text-decoration: none;
 }
-.footer_nombres{
+
+.footer_nombres {
     margin-top: 10px;
     margin-left: 10px;
     float: left;
@@ -174,7 +177,8 @@ html {
     font-size: 18px;
     text-decoration: none;
 }
-.footer_proteccion{
+
+.footer_proteccion {
     margin-top: 10px;
     margin-right: 10px;
     float: right;
@@ -186,10 +190,14 @@ html {
     font-size: 18px;
     text-decoration: none;
 }
-a.footer_proteccion {
+
+.footer_proteccion a {
     text-decoration: none;
+    color: #ff46a4;
 }
-.nf .nerd-font, .nerd-fonts{
+
+.nf .nerd-font,
+.nerd-fonts {
     font-family: 'NerdFontsSymbols Nerd Font';
     font-style: normal;
     font-weight: normal;
