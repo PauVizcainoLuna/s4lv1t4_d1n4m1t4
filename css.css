@@ -1,4 +1,4 @@
-div#nav {
+nav#nav {
     text-align: center;
     height: 40px;
     margin-top: 40px;
@@ -7,9 +7,9 @@ div#nav {
     float: right;
 }
 
-div#nav a {
+nav#nav a {
     color: #ffbc50;
-    margin: 20px;
+    margin: 15px;
     font-family: "Arial black";
     font-size: 18px;
     text-decoration: none;
@@ -35,7 +35,7 @@ body#background {
     height: 200px;
 }
 
-div#columnas {
+.columnas {
     background-color: #5f2498;
     color: #ffbc50;
     font-family: "Arial black";
@@ -44,17 +44,23 @@ div#columnas {
     vertical-align: top;
     margin: 10px;
     padding: 10px;
+    border-style: outset;
+    border-radius: 10px;
 }
 
-div#columnas h2 {
+section.columnas h2 {
     text-align: center;
     margin-left: 10px;
     margin-top: 10px;
     padding-left: 10px;
     padding-top: 10px;
 }
+section.columnas h3 {
+    color: #ff46a4;
+    font-size: 18px;
+}
 
-div#columnas a {
+section.columnas a {
     color: #ffbc50;
     text-align: justify;
     margin-top: 20px;
@@ -76,7 +82,7 @@ a.prueba {
     display: inline-block;
     outline: none;
     border-radius: 5px;
-    border: 2px solid #5f2498;
+    border: 2px ridge #ffbc50;
     background: #5f2498;
     height: 50px;
 }
@@ -98,24 +104,16 @@ html {
 }
 
 .bg-image {
-    /* Full height */
     height: 50%;
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/* Images used */
-
-
 .img2 {
     background-image: url("fotos/img1.jpg");
 }
-
 .img3 {
-    background-image: url("fotos/IMG2.jpg");
+    background-image: url("fotos/img2.jpg");
 }
 
 .img4 {
@@ -129,45 +127,36 @@ html {
 .img6 {
     background-image: url("fotos/img5.jpg");
 }
-
-/* Position text in the middle of the page/image */
 .bg-text {
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/opacity/see-through */
     color: #ffbc50;
     font-weight: bold;
     font-size: 80px;
     border: 10px solid #5f2498;
-    position: fixed;
-    /* Stay fixed */
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: px;
     padding: 20px;
     text-align: center;
 }
-
 .bg_columnas {
     margin-top: 10px;
     text-align: center;
     display: block;
 }
-
 .footer {
     margin-top: 20px;
-    height: 50px;
+    height: 70px;
     text-align: center;
     background-color: #5f2498;
     text-decoration: none;
+    border-style: solid;
+    border-color: #ff46a4;
 }
-
 .footer_nombres {
-    margin-top: 10px;
-    margin-left: 10px;
     float: left;
     color: #ffbc50;
     text-align: left;
@@ -177,10 +166,8 @@ html {
     font-size: 18px;
     text-decoration: none;
 }
-
 .footer_proteccion {
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     float: right;
     color: #ffbc50;
     text-align: right;
@@ -190,18 +177,7 @@ html {
     font-size: 18px;
     text-decoration: none;
 }
-
 .footer_proteccion a {
     text-decoration: none;
     color: #ff46a4;
-}
-
-.nf .nerd-font,
-.nerd-fonts {
-    font-family: 'NerdFontsSymbols Nerd Font';
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
 }
