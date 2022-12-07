@@ -40,7 +40,8 @@ body#background {
     color: #ffbc50;
     font-family: "Arial black";
     width: 600px;
-    display: inline-block;
+    display: inline-flex;
+    text-align: center;
     vertical-align: top;
     margin: 10px;
     padding: 10px;
