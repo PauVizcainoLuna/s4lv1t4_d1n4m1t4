@@ -1,0 +1,139 @@
+/*NAV*/
+div.nav {
+    border-bottom: solid #ff46a4;
+}
+
+#nav a {
+    color: #ffbc50;
+    margin: 15px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #5f2498;
+}
+
+.nav-link {
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px ridge #ffbc50;
+    background: #5f2498;
+    height: auto;
+}
+
+a.prueba:hover {
+    background: #c64fff;
+    color: #5f2498
+}
+
+/*BODY*/
+#background {
+    background-color: #5f2498;
+}
+
+.bg-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffbc50;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+.columnas {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ffbc50;
+    font-family: "Arial black";
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border-bottom: 7px ridge #ff46a4;
+
+}
+
+section.columnas h2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+section.columnas h3 {
+    color: #ff46a4;
+    font-size: 18px;
+}
+
+section.columnas a {
+    color: #ffbc50;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/*CARRUSEL*/
+div#demo {
+    height: auto;
+    width: auto;
+}
+
+/*FOOTER*/
+.footer {
+    height: 70px;
+    text-align: center;
+    background-color: #5f2498;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #ff46a4;
+}
+
+.footer2 {
+    height: 70px;
+    text-align: center;
+    background-color: #5f2498;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #ff46a4;
+}
+
+.footer_nombres {
+    float: left;
+    color: #ffbc50;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer_proteccion {
+    margin-right: 20px;
+    float: right;
+    color: #ffbc50;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer_proteccion a {
+    text-decoration: none;
+    color: #ff46a4;
+
+}
