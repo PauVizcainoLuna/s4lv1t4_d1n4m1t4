@@ -3,6 +3,25 @@ div.nav {
     border-bottom: solid #ff46a4;
 }
 
+h2 {
+    color: #5f2498;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+a {
+    color: #ffbc50;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+}
+
 #nav a {
     color: #ffbc50;
     margin: 15px;
@@ -82,6 +101,146 @@ section.columnas a {
     font-family: "Arial black";
     font-size: 18px;
     text-decoration: none;
+}
+
+.curso {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+.curso2 {
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+.columnas-curso {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: "Arial black";
+    color: #ffbc50;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border-bottom: 7px ridge #ff46a4;
+    height: 50%;
+    width: 50%;
+}
+
+.columnas-curso2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: "Arial black";
+    color: #ffbc50;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border-bottom: 7px ridge #ff46a4;
+    margin-top: 80px;
+    margin-left: 60px;
+    height: 50%;
+    width: 50%;
+}
+
+.columnas-curso3 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: "Arial black";
+    color: #ffbc50;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border-bottom: 7px ridge #ff46a4;
+    margin-top: 105px;
+    margin-right: 60px;
+    height: 50%;
+    width: 50%;
+}
+
+.columnas-curso3 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: "Arial black";
+    color: #ffbc50;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border-bottom: 7px ridge #ff46a4;
+    margin-top: 105px;
+    margin-right: 60px;
+    height: 50%;
+    width: 50%;
+}
+
+.columnas-curso4 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: "Arial black";
+    color: #ffbc50;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border-bottom: 7px ridge #ff46a4;
+    margin-top: 25px;
+    margin-left: 290px;
+    height: 50%;
+    width: 50%;
+}
+
+section.columnas-curso h2 {
+    color: #5f2498;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+section.columnas-curso h3 {
+    color: #ff46a4;
+    font-size: 18px;
+}
+
+section.columnas-curso a {
+    color: #ffbc50;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+section.fotos-curso {
+    display: inline-flex;
+}
+
+.img1 {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 225px;
+    padding: 5px;
+    border-bottom: 5px ridge #ffbc50;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.img2 {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 225px;
+    padding: 5px;
+    border-bottom: 5px ridge #ffbc50;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.img3 {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 400px;
+    padding: 5px;
+    border-bottom: 5px ridge #ffbc50;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 /*CARRUSEL*/

@@ -3,13 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>PJ SYSTEM</title>
+    <title>PJ SYSTEM - CURSO 1</title>
     <link rel="stylesheet" type="text/css" href="css.css">
     <link rel="icon" type="image/x-icon" href="fotos/iconhead.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 </head>
 
@@ -56,7 +55,7 @@
             <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
         </div>
 
-        <!-- The slideshow/carousel -->
+        <!-- FOTOS CARROSEL -->
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="fotos/img1.jpg" alt="img1" class="d-block w-100">
@@ -75,7 +74,7 @@
             </div>
         </div>
 
-        <!-- Left and right controls/icons -->
+        <!-- ICONOS CARROSEL -->
         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
@@ -83,76 +82,87 @@
             <span class="carousel-control-next-icon"></span>
         </button>
     </div>
-
+    <!-- EDICIÓ -->
     <div class="container mt-3">
         <div class="d-flex flex-column mb-3">
             <div class="p-2">
-                <section class=columnas>
-                    <h2> CURSO Nº1 </h2>
-                    <h3>Instalación de sistema operativo</h3>
-                    <a>Curso dedicado a la instalación de un entorno ideal para trabajar en pentesting.</a>
-                </section>
-            </div>
-            <div class="p-2">
-                <section class="columnas">
-                    <h2> CURSO Nº2 </h2>
-                    <h3>Comprovación de datos</h3>
-                    <a>Curso dedicado a extraer información a través de páginas web.</a>
-                </section>
-            </div>
-            <div class="p-2">
-                <section class="columnas">
-                    <h2> CURSO Nº3 </h2>
-                    <h3>En desarrollo...</h3>
-                    <a>Un curso que os va a sorprender. No podemos decir más...</a>
-                </section>
+                <div class=curso>
+                    <section class=columnas-curso>
+                        <h2>Instalación de sistema operativo</h2>
+                        <a>Para tener un entorno de trabajo ideal, para poder realizar funciones de pentesting, es el BSPWM.
+                            Este entorno necesitará de un sistema operativo que lo respalde, desde aqui se tiene que hacer en una distribucion de linux.
+                            Nuestras recomendaciones són: Kali Linux i Parrot OS.</a>
+                    </section>
+                    <section class=fotos-curso>
+                        <a href="https://www.kali.org/"><img class="img1" src="fotos/img6.png"></a>
+                        <a href="https://parrotlinux.org/"><img class="img2" src="fotos/img7.jpeg"></a>
+                    </section>
+                </div>
+                <div class=curso2>
+                    <section class=fotos-curso>
+                        <img class="img3" src="fotos/img8.jpeg">
+                    </section>
+                    <section class=columnas-curso2>
+                        <h2>Entorno BSPWM</h2>
+                        <a>Este entorno esta caracterizado por su sencillez y rapidez a la hora de abrir y cerrar ventanas.
+                            Se respalda principalmente en SXHKD para los "shorcuts". Con una shell de ZSHELL, se personaliza para
+                            un mayor grado de conformidad a la hora de trabajar.</a>
+                    </section>
+                </div>
+                <div class=curso>
+                    <section class=columnas-curso3>
+                        <h2>¿Cómo puedo implementarlo?</h2>
+                        <a>Haz click en la imagen para poder acceder a un PasteBin, en que se especifica cómo se tiene que instalar el 
+                            BSPWM sobre un Parrot OS.</a>
+                    </section>
+                    <section class=fotos-curso>
+                        <a href="https://pastebin.com/EEX1Dsuq"><img class="img3" src="fotos/img9.png"></a>
+                    </section>
+                </div>
+                <div class=curso>
+                    <section class=columnas-curso4>
+                        <h2>Agredecimiento</h2>
+                        <a>El manual que se indica aqui arriba, es de propiedad de Marcelo Vázquez, más conocido como S4VITAR.</a>
+                        <a href="https://www.youtube.com/c/s4vitar"><img class="img1" src="fotos/img10.jpeg"></a>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
    
     <!-- Footer -->
     <footer class=" text-center text-white" style="background-color:#000000;">
-        <!-- Grid container -->
+       
         <div class="container p-4">
 
-            <!-- Section: Social media -->
             <section class="mb-4">
-                <!-- Facebook -->
+
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
                         class="fab fa-facebook-f"></i></a>
 
-                <!-- Twitter -->
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
                         class="fab fa-twitter"></i></a>
 
-                <!-- Google -->
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i
                         class="fab fa-google"></i></a>
 
-                <!-- Instagram -->
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
                         class="fab fa-instagram"></i></a>
 
-                <!-- Linkedin -->
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i
                         class="fab fa-linkedin-in"></i></a>
-                <!-- Github -->
+
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i
                         class="fab fa-github"></i></a>
             </section>
-            <!-- Section: Social media -->
 
-            <!-- Section: Text -->
             <section class="mb-4">
                 <p>
                     Pau Vizcaino | Jesús Ameller
                 </p>
             </section>
-            <!-- Section: Text -->
-
 
         </div>
-        <!-- Grid container -->
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
@@ -162,7 +172,6 @@
         <!-- Copyright -->
 
     </footer>
-    <!-- Footer -->
 </body>
 
 </html>
