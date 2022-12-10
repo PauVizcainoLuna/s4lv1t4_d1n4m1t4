@@ -352,3 +352,20 @@ div#demo {
     color: #ff46a4;
 
 }
+
+.formulario{
+    margin-top: 70px;
+    text-align: center;
+    background-color: #5f2498;
+    color: #ffbc50;
+    font-family: "Arial black";
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-bottom: 7px ridge #ff46a4;
+}
