@@ -21,6 +21,24 @@ h2 {
     padding-top: 10px;
 }
 
+li {
+    color: #ffbc50;
+    text-align: left;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 16px;
+    text-decoration: none;}
+
+p {
+    color: #ffbc50;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Arial black";
+    font-size: 16px;
+    text-decoration: none;
+}
+
 #nav a {
     color: #ffbc50;
     margin: 15px;
