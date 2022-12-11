@@ -3,7 +3,7 @@
     background-color: #5f2498;
 }
 
-#background2{
+#background2 {
     background-image: url(fotos/img2.jpg);
 }
 
@@ -21,18 +21,10 @@ h2 {
     padding-top: 10px;
 }
 
-li {
+
+.columnas li {
     color: #ffbc50;
     text-align: left;
-    margin-left: 20px;
-    font-family: "Arial black";
-    font-size: 16px;
-    text-decoration: none;}
-
-section.columnas p {
-    color: #ffbc50;
-    text-align: justify;
-    margin-top: 20px;
     margin-left: 20px;
     font-family: "Arial black";
     font-size: 16px;
@@ -117,7 +109,6 @@ section.columnas a {
     color: #ffbc50;
     text-align: justify;
     margin-top: 20px;
-    margin-left: 20px;
     font-family: "Arial black";
     font-size: 18px;
     text-decoration: none;
@@ -127,7 +118,12 @@ section.fotos-curso {
     display: inline-flex;
 }
 
-#img1, #img2, #img3, #img4, #img5, #img6 {
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
     background-color: rgba(0, 0, 0, 0.75);
     height: 300px;
     padding: 5px;
@@ -136,15 +132,36 @@ section.fotos-curso {
     margin-left: 20px;
 }
 
+/*PROTECCION DATOS*/
+a#datos {
+    font-size: 16px;
+}
+
+section.columnas p {
+    color: #ffbc50;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    font-family: "Arial black";
+    font-size: 16px;
+    text-decoration: none;
+}
+
 /*FORMULARIO*/
-.formulario{
+.formulario {
     text-align: center;
     background-color: #5f2498;
     color: #ffbc50;
     font-family: "Arial black";
     width: 400px;
-    padding: 10px;
-    padding-bottom: 40px;
+    padding: 5px;
+    padding-bottom: 10px;
     border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: rgba(0, 0, 0, 0.75);
-    border-bottom: 5px ridge #ffbc50;}
+    border-bottom: 5px ridge #ffbc50;
+}

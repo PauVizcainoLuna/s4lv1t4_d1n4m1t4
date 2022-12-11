@@ -12,7 +12,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 </head>
 
-<body id="background2">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" id="background2">
 
     <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #000;" id="nav">
         <div class="container-fluid">
@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
@@ -43,116 +43,112 @@
     </nav>
 
     <div class="bg-text">CONTACTO</div>
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-        <div class="container mt-3">
-            <div class="d-flex flex-column mb-3">
-                <div class="p-2 d-flex justify-content-center">
-                    <form class="formulario" action="action.php" method="post">
-                        <h2>Dudas sobre el curso</h2>
-                        <a>Aqui puedes escribr las dudas sobre algún curso o realizar la inscripción</a><br><br>
-                        <div class="row mb-4">
-                            <div class="col">
-                                <div class="form-outline">
-                                    <label class="form-label" for="form6Example1">Nombre</label>
-                                    <input type="text" id="form6Example1" class="form-control" placeholder="Nombre" />
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-outline">
-                                    <label class="form-label" for="form6Example2">Apellidos</label>
-                                    <input type="text" id="form6Example2" class="form-control"
-                                        placeholder="Apellidos" />
-                                </div>
+    <div class="container mt-3">
+        <div class="d-flex flex-column mb-3">
+            <div class="p-2 d-flex justify-content-center">
+                <form class="formulario" action="action.php" method="post">
+                    <h2>Dudas sobre el curso</h2>
+                    <a>Aqui puedes escribr las dudas sobre algún curso o realizar la inscripción</a><br><br>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="form-outline">
+                                <label class="form-label" for="form6Example1">Nombre</label>
+                                <input type="text" id="form6Example1" class="form-control" placeholder="Nombre" />
                             </div>
                         </div>
-
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="form6Example5">Correo electrónico</label>
-                            <input type="email" id="form6Example5" class="form-control"
-                                placeholder="correo@gmail.com" />
-                        </div>
-
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="form6Example6">Numero de teléfono</label>
-                            <input type="tel" id="form6Example6" class="form-control" placeholder="+34 *********" />
-                        </div>
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="form6Example6">Curso deseado</label><br>
-
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="rdo" checked>
-                                <label class="form-label">Curso 1</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="rdo">
-                                <label class="form-label">Curso 2</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="rdo">
-                                <label class="form-label">Curso 3</label>
+                        <div class="col">
+                            <div class="form-outline">
+                                <label class="form-label" for="form6Example2">Apellidos</label>
+                                <input type="text" id="form6Example2" class="form-control" placeholder="Apellidos" />
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-12">
-                            <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-                            <select class="select">
-                                <option value="1">Realizar inscripción</option>
-                                <option value="2">Tengo una duda</option>
-                            </select><br>
-                            <label class="form-label" for="form6Example8">Que desea?</label>
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form6Example5">Correo electrónico</label>
+                        <input type="email" id="form6Example5" class="form-control" placeholder="correo@email.com" required />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form6Example6">Numero de teléfono</label>
+                        <input type="tel" id="form6Example6" class="form-control" placeholder="*********" maxlength="9" required pattern="[0-9]{9}"/>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form6Example6">Curso deseado</label><br>
+
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="rdo" checked>
+                            <label class="form-label">Curso 1</label>
                         </div>
-                        <br>
-
-                        <div class="form-outline mb-4">
-                            <textarea class="form-control" id="form6Example7" rows="4"
-                                placeholder="Escribe tus dudas o di porqué está interesado en el curso"></textarea>
-                            <label class="form-label" for="form6Example7">Información Adicional</label>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="rdo">
+                            <label class="form-label">Curso 2</label>
                         </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="rdo">
+                            <label class="form-label">Curso 3</label>
+                        </div>
+                    </div>
 
-                        <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
-                    </form>
-                </div>
+                    <div class="col-12">
+                        <select class="select">
+                            <option value="1">Realizar inscripción</option>
+                            <option value="2">Tengo una duda</option>
+                        </select><br>
+                        <label class="form-check form-check-inline">Que desea?</label>
+                    </div>
+                    <br>
+
+                    <div class="form-outline mb-4">
+                        <textarea class="form-control" id="form6Example7" rows="4"
+                            placeholder="Escribe tus dudas o di porqué está interesado en el curso" required></textarea>
+                        <label class="form-label" for="form6Example7">Información Adicional</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                </form>
             </div>
         </div>
+    </div>
 
-        <footer class=" text-center text-white" style="background-color:#000000;">
-            <div class="container p-4">
+    <footer class=" text-center text-white" style="background-color:#000000;">
+        <div class="container p-4">
 
-                <section class="mb-4">
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!"
-                        role="button"><i class="fab fa-facebook-f"></i></a>
+            <section class="mb-4">
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
 
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!"
-                        role="button"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
 
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!"
-                        role="button"><i class="fab fa-google"></i></a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
 
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!"
-                        role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
 
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!"
-                        role="button"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!"
-                        role="button"><i class="fab fa-github"></i></a>
-                </section>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
 
-                <section class="mb-4">
-                    <p>
-                        Pau Vizcaino | Jesús Ameller
-                    </p>
-                </section>
+            <section class="mb-4">
+                <p>
+                    Pau Vizcaino | Jesús Ameller
+                </p>
+            </section>
 
 
-            </div>
+        </div>
 
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-                Todo esta bajo:
-                <a class="text-white" href="privacidad.html">Protección de datos</a>
-            </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            Todo esta bajo:
+            <a class="text-white" href="privacidad.html">Protección de datos</a>
+        </div>
 
-        </footer>
+    </footer>
 </body>
 
 </html>
